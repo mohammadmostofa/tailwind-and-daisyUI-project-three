@@ -22,21 +22,22 @@
   }
 </style>
 
+
+
 </head>
 <body class="font-manrope">
 
   
-<header class="container mx-auto">
+<header class=" md:container mx-auto bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF] ">
 
   <!-- nav start-->
+  <nav >
 
-  <nav class="">
-
-    <div class="navbar bg-base-100 shadow-sm py-5  my-2 ">
-  <div class="navbar-start">
+    <div class="navbar bg-base-100 shadow-sm py-5   justify-between items-center text-center ">
+  <div class="navbar-start ">
     
   
-    <div class="flex justify-center items-center text-center gap-2  p-4">
+    <div class="flex  justify-center items-center text-center space-x-2 ">
 
      <div class="flex justify-center items-center text-center bg-[#ABEF5F] w-10 h-10 text-black rounded-full">
       <i class="fa-solid fa-arrow-left rotate-130"></i>
@@ -47,10 +48,10 @@
     </div>
 
   </div>
-  <div class="navbar-center hidden lg:flex before:bg-none">
-    <ul class="menu menu-horizontal px-1 capitalize  ">
+  <div class="  navbar-center hidden  lg:flex before:bg-none  ">
+    <ul class="menu menu-horizontal  capitalize space-x-1 ">
      
-      <li><a class="font-bold text-black " href="#">Home</a></li>
+      <li><a class="font-bold text-black  " href="#">Home</a></li>
       <li><a href="#">Service</a></li>
       <li><a href="#">Portpolio</a></li>
       <li><a href="#">blog</a></li>
@@ -58,55 +59,82 @@
 
     </ul>
   </div>
-  <div class="navbar-end space-x-6 ">
+  <div class="navbar-end gap-x-5 hidden md:flex lg:flex xl:flex   ">
     
-    <div class="space-x-10 sm:hidden md:block lg:block ">
+     <div class="  flex justify-center items-center gap-x-4  ">
 
-      <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-    <a href=""><i class="fa-solid fa-cart-shopping "></i></a>
-
-    </div>
+      <div class="w-10 h-10 bg-gray-200 flex justify-center items-center text-black text-center rounded-full">
+        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
     
-   <div class="md:flex justify-center items-center text-center space-x-2 bg-[#ABEF5F] px-4 py-2 rounded-full sm:hidden ">
+      <div class="w-10 h-10 bg-gray-200 text-black flex justify-center items-center text-center rounded-full">
+        <a href=""><i class="fa-solid fa-cart-shopping "></i></a>
+      </div>
+
+     </div>
+    
+   <div class=" flex sm:hidden lg:flex  md:flex justify-center items-center text-center space-x-2 bg-[#ABEF5F] px-3 py-2 rounded-full  ">
 
     <div>
       <a class="text-sm font-bold text-black " href="#">Book Consult</a>
     </div>
 
-    <div class="flex justify-center items-center text-center bg-black w-10 h-10 text-white rounded-full">
+    <div class="flex justify-center items-center text-center bg-black w-6 h-6 text-white rounded-full">
       <a href="#"><i class="fa-solid fa-arrow-left rotate-130 "></i></a>
      </div>
+      </div>
 
-   </div>
 
-   <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+  </div>
+
+  <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden  ">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1  px-4 absolute top-15 right-0 p-1 ">
+       
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portpolio</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a class="" href="#">contact us</a></li>
+          
+
       </ul>
     </div>
-
-  </div>
 </div>
 
   </nav>
-
   <!-- nav end -->
 
-
+  <!-- Hero section start -->
+  <section>
   
+    <div class="flex flex-col justify-center items-center text-center space-y-4 mt-10 mb-25">
+
+      <img src="images/banner.png" alt="">
+      <br>
+      <h1 class="font-extrabold text-black xs-text-3xl md:text-5xl lg:text-6xl   w-3/4 ">A barn house of this design has a  striking appearance</h1>
+      <br>
+      <p class="w-3/4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+<br>
+      <button class="text-sm font-bold  py-3 px-3 rounded-full bg-[#a5d76d] text-black ">
+       View Details
+       <span class="py-2 px-3 text-center bg-[#70d200] rounded-full ml-1">
+        <a href="#"> <i class="fa-solid fa-arrow-left rotate-130 "></i> </a>
+       </span>
+      </button>
+      
+      
+
+
+    </div>
+
+  </section>
+  <!-- Hero section start -->
+
 
 </header>
 
