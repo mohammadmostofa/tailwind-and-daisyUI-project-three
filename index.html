@@ -362,7 +362,7 @@
 
           <h2 class="font-bold text-3xl text-black">Our Latest Portfolio</h2>
            
-          <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
       </div>
 
       <!-- part one -->
@@ -393,7 +393,7 @@
           <div class="flex flex-col lg:flex-row md:flex-col justify-between items-center gap-3 py-10">
 
             
-            <img class="mx-auto p-3 rounded-md border-gray-300" src="images/img3.png" alt="">
+            <img class="mx-auto p-3 rounded-md border border-gray-300" src="images/img3.png" alt="">
         
        
           <div class=" flex flex-1 flex-col md:flex-row lg:flex-row   justify-center items-center border p-3 rounded-md border-gray-300 w-40%">
@@ -418,17 +418,50 @@
     </div>
 
   </section>
-
-    <!-- portpolio section end -->
-
-
-    
+   <!-- portpolio section end -->
 
   </main>
 
 
-  <footer>
+  <footer class="py-10 "
+  style="background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;"
+  >
 
+    <!-- footer container start-->
+     <div class="flex flex-col justify-center items-center text-center">
+
+      <!-- title start -->
+       <div class="flex flex-col justify-center items-center text-center space-y-4 py-10">
+
+        <div>
+          <a class="px-4 py-3 rounded-sm bg-[#c0e09b]" href=""> <span class="text-black font-bold text-xl">Let’s Connect</span> <i class="fa-solid fa-arrow-left rotate-130 p-2 bg-[#ABEF5F] rounded-full"></i></a>
+        </div>
+
+        <h2 class="font-bold text-3xl text-black">Let’s Discuss Next Project</h2>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+       </div>
+      <!-- title end -->
+
+    <form class="space-y-4 space-x-2 " action="">
+
+      <input class="px-10 py-4 bg-white rounded-md outline-none border-none" type="text" name="" id="" placeholder="first name">
+      <input class="px-10 py-4 bg-white rounded-md outline-none border-none" type="text" name="" id="" placeholder="last name">
+      <br>
+      <input class="px-10 py-4 bg-white rounded-md outline-none border-none" type="number" name="" id="" placeholder="phone number">
+      <input class="px-10 py-4 bg-white rounded-md outline-none border-none" type="email" name="" id="" placeholder="email">
+      <br>
+      <textarea  class="p-3 rounded-md bg-white outline-none border-none" name="" id="" cols="58" rows="12" placeholder="wright your message here"></textarea>
+      <button class="w-full bg-[#ABEF5F] text-center py-2 text-xl font-black ">
+        Send Mail
+         <i class="fa-solid fa-arrow-left  rotate-180 p-3 text-white bg-black rounded-full"></i>
+      </button>
+    </form>
+
+     </div>
+     <!-- footer container end -->
 
   </footer>
 
